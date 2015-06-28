@@ -13,8 +13,8 @@ import (
 
 func init() {
 	var path string
-	if exists, _:= pgpub.IsFileExist("/Users/lankc/dev/projects/src/github.com/lankecheng/polyge/server/conf/seelog.xml"); exists {
-		path = "/Users/lankc/dev/projects/src/github.com/lankecheng/polyge/server/conf/seelog.xml"
+	if exists, _:= pgpub.IsFileExist("/Users/lankc/dev/projects/src/github.com/lankecheng/pgserver/conf/seelog.xml"); exists {
+		path = "/Users/lankc/dev/projects/src/github.com/lankecheng/pgserver/conf/seelog.xml"
 	} else {
 		path = "/home/lankc/projects/src/github.com/lankecheng/polyge/server/conf/seelog.xml"
 	}
