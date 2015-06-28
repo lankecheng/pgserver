@@ -1,9 +1,9 @@
 package hdl
 
 import (
-	"github.com/lankecheng/polyge/server/serv"
+	"github.com/lankecheng/pgserver/serv"
 	"net/http"
-	"github.com/lankecheng/polyge/server/pgpub"
+	"github.com/lankecheng/pgserver/pgpub"
 )
 
 func ShowTeachers(w http.ResponseWriter, req *http.Request) {

@@ -3,8 +3,8 @@ package hdl
 import (
 	//	"github.com/cihub/seelog"
 	"net/http"
-	"github.com/lankecheng/polyge/server/serv/im"
-	"github.com/lankecheng/polyge/server/serv"
+	"github.com/lankecheng/pgserver/serv/im"
+	"github.com/lankecheng/pgserver/serv"
 )
 
 func WebsocketConnect(w http.ResponseWriter, req *http.Request) {

@@ -2,7 +2,7 @@ package dao
 
 import (
 	"github.com/cihub/seelog"
-	"github.com/lankecheng/polyge/server/pgpub"
+	"github.com/lankecheng/pgserver/pgpub"
 )
 
 type PGToken struct {

@@ -3,8 +3,8 @@ package hdl
 import (
 	"fmt"
 	//	"github.com/cihub/seelog"
-	"github.com/lankecheng/polyge/server/pgpub"
-	"github.com/lankecheng/polyge/server/serv"
+	"github.com/lankecheng/pgserver/pgpub"
+	"github.com/lankecheng/pgserver/serv"
 	"io"
 	"net/http"
 	"strconv"

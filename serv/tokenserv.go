@@ -1,8 +1,8 @@
 package serv
 
 import (
-	"github.com/lankecheng/polyge/server/dao"
-	"github.com/lankecheng/polyge/server/pgpub"
+	"github.com/lankecheng/pgserver/dao"
+	"github.com/lankecheng/pgserver/pgpub"
 	"math/rand"
 	"strconv"
 	"time"

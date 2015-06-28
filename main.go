@@ -7,8 +7,8 @@ import (
 	"github.com/cihub/seelog"
 	"os"
 
-	"github.com/lankecheng/polyge/server/hdl"
-	"github.com/lankecheng/polyge/server/pgpub"
+	"github.com/lankecheng/pgserver/hdl"
+	"github.com/lankecheng/pgserver/pgpub"
 )
 
 func init() {

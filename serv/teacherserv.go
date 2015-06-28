@@ -1,8 +1,8 @@
 package serv
 
 import (
-	"github.com/lankecheng/polyge/server/dao"
-	"github.com/lankecheng/polyge/server/pgpub"
+	"github.com/lankecheng/pgserver/dao"
+	"github.com/lankecheng/pgserver/pgpub"
 )
 
 func ShowTeachers() (teachers []map[string]interface{}, err error) {

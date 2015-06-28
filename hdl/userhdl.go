@@ -2,10 +2,10 @@ package hdl
 
 import (
 	"github.com/cihub/seelog"
-	"github.com/lankecheng/polyge/server/serv"
+	"github.com/lankecheng/pgserver/serv"
 	"net/http"
 	"strconv"
-	"github.com/lankecheng/polyge/server/pgpub"
+	"github.com/lankecheng/pgserver/pgpub"
 )
 
 func Register(w http.ResponseWriter, req *http.Request) {

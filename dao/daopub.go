@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"time"
 	"bytes"
-	"github.com/lankecheng/polyge/server/pgpub"
+	"github.com/lankecheng/pgserver/pgpub"
 )
 
 var db *sql.DB
