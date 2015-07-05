@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
+	"github.com/cihub/seelog"
 )
 
 const (
@@ -68,6 +69,7 @@ func imwork(wsConn *websocket.Conn) {
 
 func procMsg(msgBytes []byte) {
 	msgInfo, err := Decode(msgBytes)
+	seelog.Debugf("receive %v", msgInfo)
 	if err != nil {
 		fmt.Println(err)
 		return
